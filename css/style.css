@@ -1,0 +1,760 @@
+@import url('https://fonts.googleapis.com/css?family=Exo:100,300,400,600,700&display=swap');
+
+html,
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+/* -------------------- HEADER -------------------- */
+
+.header {
+    position: relative;
+    text-align: center;
+}
+
+
+.header-image {
+    width: 100%;
+}
+
+.header-caption {
+    position: absolute;
+    top: 30%;
+    left: 49%;
+    font-size: 3vw;
+    transform: translate(-50%, -50%);
+    font-family: 'Exo', sans-serif;
+    font-weight: 100;
+}
+
+.header-play-btn {
+    height: 5vw;
+    width: 5vw;
+    position: absolute;
+    top: 42%;
+    left: 46%;
+    opacity: 80%;
+}
+
+
+.header-button {
+    position: absolute;
+    display: flex;
+    top: 53%;
+    left: 42%;
+    justify-content: center;
+    width: 15vw;
+    height: 3.4vw;
+    border-radius: 3px;
+    background-color: #ff6d6d;
+    font-family: 'Exo', sans-serif;
+    font-weight: 400;
+    font-size: 1.5vw;
+    color: white;
+}
+
+.header-p-nocard {
+    position: absolute;
+    top: 59%;
+    left: 42%;
+    font-size: 1vw;
+    letter-spacing: 1px;
+    color: #282828;
+    font-family: "Exo";
+    font-weight: 400;
+    text-align: center;
+}
+
+/*
+@media screen and (max-width: 991px) {
+    .header-caption {
+    position: absolute;
+    top: 30%;
+    left: 49%;
+    font-size: 3vw;
+    transform: translate(-50%, -50%);
+    font-family: 'Exo', sans-serif;
+    font-weight: 100;
+}
+    .header-button {
+        position: absolute;
+        display: flex;
+        top: 60%;
+        left: 41%;
+        justify-content: center;
+        width: 150px;
+        height: 35px;
+        border-radius: 3px;
+        background-color: #ff6d6d;
+        font-family: 'Exo', sans-serif;
+        font-weight: 400;
+        color: white;
+}
+    .header-p-nocard {
+        position: absolute;
+        top: 61%;
+        left: 41%;
+        font-size: 1vw;
+        letter-spacing: 1px;
+        line-height: 75px;
+        color: #282828;
+        font-family: "Exo";
+        font-weight: 400;
+        text-align: center;
+}
+    
+}
+*/
+
+
+/* -------------------- SECTION 2 -------------------- */
+
+.s2-text-block {
+    width: 100%;
+    margin-bottom: 0;
+}
+
+#header-new-design {
+    margin-top: 20%;
+    margin-left: 15%;
+    font-size: 1.1vw;
+    letter-spacing: 3px;
+    color: #ff6d6d;
+    font-family: "Exo";
+    font-weight: 500;
+}
+
+#header-txt {
+    margin-left: 15%;
+    margin-right: 15%;
+    font-size: 2.7vw;
+    letter-spacing: 2px;
+    line-height: 3.2vw;
+    color: #282828;
+    font-family: "Exo";
+    font-weight: 500;
+}
+
+#full-stops {
+    margin-right: 15%;
+    font-size: 40px;
+    letter-spacing: 2px;
+    line-height: 50px;
+    color: #ff6d6d;
+    font-family: "Exo";
+    font-weight: 500;
+}
+
+
+#txt-new-design {
+    margin-top: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 20%;
+
+    font-size: 1.15vw;
+    letter-spacing: 1px;
+    line-height: 1.8vw;
+    color: #898A89;
+    font-family: "Exo";
+    font-weight: 500;
+}
+
+.img-block {
+    padding: 0;
+    margin-bottom: 0;
+    display: inherit;
+    width: 100%;
+}
+
+#img-rectangle {
+    width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+    #img-rectangle {
+        display: none;
+    }
+}
+
+
+/* -------------------- SECTION 3 -------------------- */
+
+.s3 {
+    margin-top: 0;
+    position: relative;
+}
+
+#s3_back_img {
+    width: 100%;
+}
+
+#s3-new-feats {
+    position: absolute;
+    left: 44%;
+    margin-top: 8%;
+
+    font-size: 1vw;
+    letter-spacing: 3px;
+    line-height: 50px;
+    color: #ff6d6d;
+    font-family: "Exo";
+    font-weight: 500;
+}
+
+#s3-header-txt {
+    position: absolute;
+    margin-top: 11%;
+    left: 32%;
+
+    font-size: 3vw;
+    letter-spacing: 2px;
+    line-height: 50px;
+    color: #282828;
+    font-family: "Exo";
+    font-weight: 500;
+}
+
+.info-blocks {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+
+.features {
+    text-align: center;
+
+}
+
+.header-feats {
+    margin-bottom: 0;
+    margin-top: 3%;
+
+    font-size: 1.3vw;
+    letter-spacing: 2px;
+    color: #282828;
+    font-family: "Exo";
+    font-weight: 500;
+}
+
+.txt-feats {
+    font-size: 1vw;
+    letter-spacing: 1px;
+    line-height: 1.5vw;
+    color: #898A89;
+    font-family: "Exo";
+    font-weight: 500;
+}
+
+.feat-img {
+    width: 5vw;
+    height: 5vw;
+}
+
+
+@media screen and (max-width: 425px) {
+    
+    #s3-new-feats {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    
+    #s3-header-txt {
+        margin-top: 5%;
+        left: 30%;
+    }
+    
+    .info-blocks {
+        margin-bottom: 7%;
+    }
+    
+    .features {
+        margin-top: 15%;
+        width: 33%;
+    }
+    
+    .feat1 {
+    }
+    
+    .feat2 {
+        
+    }
+    
+    .feat3 {
+        margin-left: 0;
+    }
+    
+}
+
+
+@media screen and (max-width: 767px) and (min-width: 426px) {
+    
+    #s3-new-feats {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    
+    #s3-header-txt {
+        margin-top: 5%;
+        left: 30%;
+    }
+    
+    .info-blocks {
+        margin-bottom: 0;
+    }
+    
+    .features {
+        width: 40%;
+    }
+    .feat1 {
+        margin-top: 10%;
+        margin-left: 10%;
+        margin-bottom: 0;
+    }
+    
+    .feat2 {
+        
+        margin-top: 10%;
+    }
+    .feat3 {
+        margin-left: 31%;
+    }
+}
+
+
+/* -------------------- SECTION 4 -------------------- */
+.s4 {
+    position: relative;
+}
+
+.s4-img {
+    width: 100%;
+}
+
+.s4-info-block {
+    position: absolute;
+}
+
+.s4-info-block-inner {
+    float: right;
+    margin-right: 10%;
+    margin-top: 9%;
+}
+
+.s4-header-1 {
+    margin-bottom: 0;
+    font-size: 1.1vw;
+    letter-spacing: 3px;
+    line-height: 2vw;
+    color: #ff6d6d;
+    font-family: "Exo";
+    font-weight: 500;
+}
+
+.s4-header-2 {
+    font-size: 2.7vw;
+    letter-spacing: 2px;
+    line-height: 3.24vw;
+    color: #282828;
+    font-family: "Exo";
+    font-weight: 500;
+}
+
+.s4-text {
+    font-size: 1.1vw;
+    letter-spacing: 1px;
+    line-height: 1.65vw;
+    color: #898A89;
+    font-family: "Exo";
+    font-weight: 500;
+
+}
+
+@media screen and (max-width: 425px) {
+    .s4-header-2 {
+        margin-bottom: 1.5vw;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    .s4-info-block {
+        margin-left: 45%;
+        margin-right: 10%;
+        margin-top: 8%;
+    }
+    
+    .s4-info-block-inner {
+        margin-right: 0;
+        margin-top: 0;
+    }
+
+}
+
+/* -------------------- SECTION 5 -------------------- */
+.s5 {
+    position: relative;
+}
+
+.s5-img {
+    width: 100%;
+}
+
+.founders {
+    margin-right: 7%;
+    margin-left: 7%;
+    margin-top: 7%;
+    position: absolute;
+}
+
+.cofounder {
+    text-align: center;
+}
+
+.founder-img {
+    height: 5vw;
+    width: 5vw;
+}
+
+.founder-name {
+    margin-top: 13px;
+    margin-bottom: 0;
+
+    font-size: 1.5vw;
+    line-height: 2.3vw;
+    color: #FFFFFF;
+    font-family: "Exo";
+    font-weight: 500;
+
+}
+
+.founder-title {
+    font-size: 1.1vw;
+    vertical-align: text-top;
+    line-height: 1.6vw;
+    color: #ff6d6d;
+    font-family: "Exo";
+    font-weight: 500;
+}
+
+.founder-words {
+    font-size: 1.15vw;
+    font-style: italic;
+    line-height: 1.7vw;
+    color: #B2B2B4;
+    font-family: "Exo";
+    font-weight: 500;
+}
+
+@media screen and (max-width: 767px) {
+    .cofounder {
+        width: 33%;
+    }
+    .founder-title {
+        margin-bottom: 1vw;
+    }
+    .founders {
+        margin-top: 5%;
+    }
+}
+
+
+/* -------------------- SECTION 6 -------------------- */
+.s6 {
+    position: relative;
+}
+
+.s6-img {
+    width: 100%;
+}
+
+.s6-text-block {
+
+    margin-top: 5%;
+    margin-left: 25%;
+    margin-right: 27%;
+    position: absolute;
+    text-align: center;
+}
+
+#s6-header-1 {
+    margin-bottom: 0;
+    font-size: 1.15vw;
+    letter-spacing: 3px;
+    line-height: 1.6vw;
+    color: #ff6d6d;
+    font-family: "Exo";
+    font-weight: 500;
+}
+
+#s6-header-2 {
+    font-size: 2.8vw;
+    letter-spacing: 2px;
+    line-height: 4vw;
+    color: #282828;
+    font-family: "Exo";
+    font-weight: 500;
+}
+
+
+#s6-text {
+    font-size: 1.1vw;
+    letter-spacing: 1px;
+    line-height: 1.6vw;
+    color: #898A89;
+    font-family: "Exo";
+    font-weight: 500;
+}
+
+/* -------------------- SECTION 7 -------------------- */
+.s7 {
+    background-color: #323A69;
+}
+
+.s7-header {
+    margin-top: 5%;
+    margin-left: 25%;
+    margin-right: 25%;
+
+    text-align: center;
+
+}
+
+#s7-header-1 {
+    margin-bottom: 1vw;
+    font-size: 1.1vw;
+    letter-spacing: 3px;
+    line-height: 2vw;
+    color: #ff6d6d;
+    font-family: "Exo";
+    font-weight: 500;
+}
+
+#s7-header-2 {
+    margin-bottom: 2vw;
+    font-size: 2.8vw;
+    letter-spacing: 2px;
+    line-height: 4vw;
+    color: #FFFFFF;
+    font-family: "Exo";
+    font-weight: 500;
+}
+
+.input-blocks {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    
+}
+
+.input-block {
+    
+}
+
+.input-info {
+    width: 95%;
+    color: #F6F5F3;
+    background-color: #464C77;
+    padding: 0.3vw 1.5vw;
+    display: inline-block;
+    border: 1px solid #999CB4;
+    border-radius: 4px;
+    box-sizing: border-box;
+    
+}
+
+.input-info::placeholder {
+    color: #F6F5F3;
+    font-weight: 400;
+    font-family: "Exo";
+    font-size: 1.2vw;
+}
+
+.sign-up {
+    width: 95%;
+    background-color: #ff6d6d;
+    text-align: center;
+    color: #F6F5F3;
+    font-family: "Exo";
+    font-weight: 400;
+    font-size: 1.2vw;
+    border: 0;
+    padding: 0.9vw 1.5vw;
+    display: inline-block;
+    border-radius: 4px;
+    box-sizing: border-box;
+    
+}
+
+@media screen and (max-width: 767px) {
+    .input-block {
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+    
+    .input-info {
+        width: 100%;
+        margin-bottom: 1vw;
+        
+        padding-left: 1vw;
+        padding-top: 0;
+    }
+    
+    .sign-up-block {
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+    
+    .sign-up {
+        width: 100%;
+    }
+    
+}
+
+
+/* -------------------- FOOTER -------------------- */
+.footer {
+    position: relative;
+}
+
+.footer-back-img {
+   width: 100%;
+}
+
+.foot-blocks {
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 15%;
+    margin-bottom: 5%;
+}
+
+.foot-header {
+    font-size: 2vw;
+    letter-spacing: 0.1vw;
+    font-family: "Exo";
+    font-weight: 500;
+}
+
+.foot-geo-info {
+    font-size: 1.5vw;
+    line-height: 2.1vw;
+    font-family: "Exo";
+    font-weight: 500;
+    color: #898A89;
+}
+
+.foot-links-text {
+    font-size: 1.5vw;
+/*    padding-left: 10px;*/
+    font-family: "Exo";
+    font-weight: 500;
+    color: #898A89;
+    margin-bottom: 10px;
+}
+
+.foot-link:hover {
+    text-decoration: none;
+}
+
+.foot-input-info {
+    width: 80%;
+    color: #B1B1B1;
+    background-color: #F6F6F6;
+    padding: 0.5vw 1.5vw;
+    display: inline-block;
+    border: 1px solid #B8B8C0;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.foot-input-info::placeholder {
+    color: #B1B1B1;
+    font-weight: 400;
+    font-family: "Exo";
+    font-size: 1.5vw;
+
+}
+
+
+
+.send-news {
+    background-color: #ff6d6d;
+    text-align: center;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    width: 18%;
+}
+
+.brands {
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+}
+
+.brand-link {
+    color: #B1B1B1;
+}
+
+@media screen and (max-width: 991px) {
+    
+    .send-news {
+        background-color: #ff6d6d;
+        border-radius: 4px;
+        box-sizing: border-box;
+        width: 18%;
+        float: right;
+        width: 30%;
+        height: 22%;
+        margin-top: 1vw;
+        padding: 0.9vw;
+    }
+    
+    .foot-input-info {
+        width: 100%;
+    }
+    
+    
+}
+
+@media screen and (max-width: 425px) {
+    .foot-block {
+        width: 50%;
+    }
+    
+    .brands {
+        margin-right: 0;
+        margin-left: 0;
+        float: right;
+    }
+    
+    .brand {
+        width: 40%;
+    }
+}
+
+
+@media screen and (max-width: 767px) and (min-width: 426px) {
+    .foot-block {
+        width: 50%;
+    }
+    
+    .brands {
+        margin-right: 0;
+        margin-left: 0;
+        float: right;
+    }
+    
+    .brand {
+        width: 20%;
+    }
+    
+}
